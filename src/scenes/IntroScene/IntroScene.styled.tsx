@@ -28,7 +28,7 @@ export const WakandaWall = styled.div`
   height: 110%;
   top: -5%;
   left: -5%;
-  background-image: url('src/assets/images/wakanda-wall-texture.png');
+  background-image: url('/assets/images/wakanda-wall-texture.png');
   background-size: cover;
   background-position: center;
   z-index: 10;
@@ -55,11 +55,11 @@ const DoorBase = styled.div`
 `;
 
 export const LeftDoor = styled(DoorBase)`
-  background-image: url('src/assets/images/left-door.png');
+  background-image: url('/assets/images/left-door.png');
 `;
 
 export const RightDoor = styled(DoorBase)`
-  background-image: url('src/assets/images/right-door.png');
+  background-image: url('/assets/images/right-door.png');
 `;
 
 export const TextContainer = styled.div`

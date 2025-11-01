@@ -22,7 +22,7 @@ export const Background = styled.div`
   left: 0;
   width: 300%;
   height: 110%;
-  background-image: url('src/assets/images/wakanda-hall-background.jpg');
+  background-image: url('/assets/images/wakanda-hall-background.jpg');
   background-size: cover;
   z-index: 1;
 `;
@@ -33,7 +33,7 @@ export const Tree = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('src/assets/images/hall-tree.png');
+  background-image: url('/assets/images/hall-tree.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -47,11 +47,11 @@ export const Particles = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('src/assets/images/particles.png');
+  background-image: url('assets/images/particles.png');
   background-size: cover;
   background-position: center;
   z-index: 20;
-  pointer-events: none; // CRUCIAL
+  pointer-events: none;
 `;
 
 export const TextContainer = styled.div`
